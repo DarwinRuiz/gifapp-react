@@ -7,8 +7,8 @@ export const GifExpertApp = () => {
     const [categories, setCategories] = useState( ['Naruto'] );
 
     return (
-        <div>
-            <h2>GifExpertApp</h2>
+        <div className='contenedor-principal'>
+            <h1>Buscador de Gifs</h1>
 
             <AddCategory setCategories= {setCategories} />
             <hr />
